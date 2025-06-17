@@ -1,12 +1,97 @@
-# React + Vite
+🧠 AskAny: AI-powered Local ChatBot
+AskAny is a fully offline AI chatbot powered by WebLLM, running large language models locally in the browser using WebGPU. Designed with a smooth and intuitive interface using ReactJS, AskAny provides real-time conversational AI capabilities without relying on internet access or external APIs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🤖 On-device AI Chatbot
 
-Currently, two official plugins are available:
+Runs large language models directly in the browser via WebLLM
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No internet or backend server required for inference
 
-## Expanding the ESLint configuration
+💬 Real-time Interaction
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive and intuitive interface using ReactJS
+
+Seamless user experience with instant replies
+
+⚡ WebGPU Acceleration
+
+Utilizes WebGPU for fast and efficient local model inference
+
+Great performance even on modern consumer devices
+
+🔐 Private & Secure
+
+No data sent to servers – all processing stays on your machine
+
+🧰 Tech Stack
+Layer	Technology
+Frontend	ReactJS
+AI Runtime	WebLLM
+Acceleration	WebGPU
+
+📸 Screenshots
+(Include screenshots or screen recording GIFs here)
+UI Chat Interface | Model Loading | WebGPU Performance Panel
+
+🏁 Getting Started
+Prerequisites
+A modern browser with WebGPU support (e.g., Chrome Canary or latest Chromium builds)
+
+Node.js and npm (for local development)
+
+Installation
+Clone the repository
+
+
+Copy
+Edit
+git clone https://github.com/your-username/askany-chatbot.git
+cd askany-chatbot
+Install dependencies
+Build and run the App
+Open in browser
+Visit http://localhost:3000
+
+📝 Ensure you’re using a browser with WebGPU enabled. You may need to enable flags manually.
+
+📦 Build for Production
+bash
+Copy
+Edit
+npm run build
+📄 Folder Structure (Simplified)
+bash
+Copy
+Edit
+/askany-chatbot
+│
+├── /public      
+
+├── /src
+
+│   ├── /App.jsx      
+
+│   ├── /app.css           
+
+│   ├── /index.css
+
+│   ├── /main.jsx           
+
+├── eslint.config.js             
+
+├── index.html
+
+├── package.json
+
+├── vite.config.js           
+
+└── README.md
+💡 Future Enhancements
+Voice input and text-to-speech support
+
+Multi-model support and model selector
+
+Persistent chat history
+
+Offline install via PWA
