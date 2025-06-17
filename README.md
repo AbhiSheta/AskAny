@@ -60,12 +60,12 @@ bash
 Copy
 Edit
 npm run build
-📄 Folder Structure (Simplified)
-bash
-Copy
-Edit
+📄 Folder Structure 
+
 /askany-chatbot
+
 │
+
 ├── /public      
 
 ├── /src
