@@ -21,7 +21,6 @@ Utilizes WebGPU for fast and efficient local model inference
 Great performance even on modern consumer devices
 
 🔐 Private & Secure
-
 No data sent to servers – all processing stays on your machine
 
 🧰 Tech Stack
